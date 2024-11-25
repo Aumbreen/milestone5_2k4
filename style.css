@@ -1,0 +1,109 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 20px;
+    padding: 0px;
+       background-color: rgb(245, 245, 250);
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt ;
+    
+    text-align: center;
+    color: rgb(35, 33, 33);
+}
+    h2{
+        font-size: 10px;
+        text-align: center;
+        color: #0a0a0c;
+font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
+
+    
+
+form {
+   margin: auto;
+   max-width:  700px;
+   background-color: rgb(220, 229, 242);
+border-radius: 8px ;
+box-shadow: black;
+padding: 20px;
+border: 0,4px #3c72a8 ;
+
+
+}
+legend{
+    color: rgb(36, 35, 35);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+}
+label{
+    border:2px ;
+    box-shadow:rgb(126, 126, 237) ;
+    border-radius:8px ;
+    margin-top: 10px;
+    padding:8px ;
+    display: block;
+
+}
+input,textarea{
+width:calc(100%) ;
+margin-top: 8px;
+padding: 4px;
+border-radius: 4px;
+box-sizing: border-box;
+border: 1px solid #63abf3;
+    
+}
+fieldset{
+    border: 2px solid #406b96; 
+    border-radius:8px ;
+    border-color: rgb(255, 249, 249);
+    margin-bottom:20px ;
+    padding: 20px;
+    background-color: rgb(235, 238, 250);
+
+}
+button{
+    margin: 100px;
+    padding: 8px;
+    width: 70%;
+margin:center;
+
+    border-radius:10px ;
+    cursor:pointer ;
+    display:block ;
+    color: rgb(12, 13, 13);
+
+    box-shadow: none;
+    
+    background-color: rgb(102, 102, 212);
+    border:none ;
+    font-size:18px ;
+    margin-top:10px ;
+
+}
+button:hover{
+
+background-color: aquamarine;
+}
+#resume-display{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #6e5cf4;
+    border-radius: 8px;
+    background-color:#e2dff8 ;
+    box-shadow: 0,4px,8px,#0a0a0c;
+    /* making the editable resume */
+    outline: none;
+    
+
+}
+
+#resume-display h2{
+    color: #2c3c50;
+}

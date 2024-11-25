@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Shareable Resume Builder</title>
+    <!-- <img src="" alt="picture text"> -->
+    <link   rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+        <h1 ><b> Shareable Resume Builder</b></h1>
+        <form id="resume-form">
+    
+    <fieldset>
+        <legend><h1><b>Personal Information</b></h1></legend>
+
+
+        <label for="username"><b>UserName:</b></label>
+<input type="text"   id="username" placeholder="enter your username" required/><br>
+<label for="name"><b>Name:</b></label>
+<input type="text"   id="name" placeholder="enter your name" required/><br>
+        
+<label for="fatherName"><b>FatherName:</b></label>
+<input type="text" id="fatherName"  placeholder="enter your fatherName"/><br>
+        
+<label for="contactDetail"><b>ContactDatail:</b></label>
+<input type="tel"  id="contactDatail"  placeholder="enter your contactDatail"/><br>
+        
+<label for="email"><b>Email:</b></label>
+<input type="email"  id="email"  placeholder="enter your Email"/><br>
+
+<label for="NIC"><b>NIC:</b></label>
+<input type="number"   id="NIC" placeholder="enter your NIC"/><br>
+                
+</fieldset>
+    
+<fieldset>
+    <legend><h2><b>Education</h2></b></legend>
+    <label for="education"></b>Education:</b></label>
+
+<textarea id="education" rows="4" placeholder="enter your education" required></textarea><br>
+        
+        
+</fieldset>
+<fieldset>
+    <legend><h2><b>Skills</h2></b></legend>
+    <label for="skills">Skills:</label>
+<textarea   id="skills" rows="4" placeholder="enter your skills" required></textarea><br>
+        </fieldset>
+<fieldset>
+    
+    <legend><b><h2>Experience</b></h2></b></legend>
+    <label for="experience">Experience:</label>
+<textarea    id="experience"  placeholder="enetr work experience" rowa="4" required></textarea><br>
+
+</fieldset><br>
+<button type="submit"><b>Generate Resume</b> </button>
+</form>
+<br>
+<!-- dynamic shareable resume -->
+<div id="resume-display" contenteditable="true">
+    <!-- Dynamic editable Resume will be generate -->
+</div>
+
+<!-- section for the shareable link and download option -->
+ <div id="sharable-link-container" style="display:none;">
+    <h2>Shareable Link</h2>
+    <p> here is your unique link to veiw or edit your resume</p>
+    <a href="#" id="shareable-link" target="_blank"></a>
+    <br>
+    <button id="download-pdf"><b>Download as PDF</b></button>
+
+ </div>
+<script src="script.js">
+
+</script>
+</body>
+</html>
